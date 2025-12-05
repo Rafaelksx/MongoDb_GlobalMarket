@@ -32,6 +32,7 @@ Este proyecto consiste en la migración, optimización y análisis de datos para
 ├── validation.js    # Reglas de validación de esquema (JSON Schema)
 ├── README.md        # Documentación del proyecto
 └── /dataset         # Archivos fuente (opcional si se entrega el link)
+---
 
 ## Instalación y Carga de Datos
 Para conectarse al clúster y trabajar con la base de datos se utilizó MongoDB Compass como cliente gráfico.
@@ -94,5 +95,6 @@ Bucket Pattern: Segmentación de productos por rangos de precio.
 Top Productos: Productos con mejor rating (>50 reviews).
 
 Cómo ejecutar: Copie el contenido de queries.js y péguelo en la consola Mongosh. Los resultados se imprimirán en formato JSON en la pantalla.
+
 
 
