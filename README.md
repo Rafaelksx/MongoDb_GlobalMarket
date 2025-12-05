@@ -43,13 +43,11 @@ En la ventana de conexión, pegar la cadena de conexión (connection string) pro
 
 Presionar Connect para establecer la conexión con el clúster remoto.
 
-Una vez establecida la conexión, desde Compass se seleccionó la base de datos llamada Ejemplo que es la base de datos trabaja al cual ya tiene lo datos incorporado
-Configuración de Índices y Search
-Para que las consultas funcionen correctamente, debe configurar los índices en Atlas.
+Una vez establecida la conexión, desde Compass se seleccionó la base de datos llamada Ejemplo que es la base de datos trabaja al cual ya tiene lo datos incorporado.
 
 ---
 ## Configuración de Índices y Search
-
+Para que las consultas funcionen correctamente, debe configurar los índices en Atlas.
 1. Atlas Search (Búsqueda Difusa)
 Para habilitar la búsqueda "Fuzzy" en productos:
 
@@ -95,6 +93,7 @@ Bucket Pattern: Segmentación de productos por rangos de precio.
 Top Productos: Productos con mejor rating (>50 reviews).
 
 Cómo ejecutar: Copie el contenido de queries.js y péguelo en la consola Mongosh. Los resultados se imprimirán en formato JSON en la pantalla.
+
 
 
 
